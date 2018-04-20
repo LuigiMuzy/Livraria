@@ -1,0 +1,247 @@
+@charset "UTF-8";
+
+/*body{
+    background-image: url("../imagens/background3.jpg");
+    background-repeat: repeat-y;
+    background-attachment: scroll;
+    background-size:100%;
+    bottom: 0;
+    color: black;
+    left: 0;
+    overflow: auto;
+    padding: 3em;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+    background-size: cover;
+}*/
+
+
+.container-fluid{
+    padding-top:1px ;
+    padding-bottom:1px ;
+    padding-left:1px ;
+    padding-right:1px ;
+    margin-top: -16px;
+    margin-bottom: 2px;
+
+
+}
+
+
+.imagem{
+    padding-top:5px ;
+    padding-bottom:5px ;
+    padding-left:10px ;
+    padding-right:10px ;
+  /* background: rgb(236, 170, 115);*/
+    
+
+}
+
+
+
+
+
+
+
+.borda1 {
+   
+    border-width: 1px 1px 1px 1px; /* aqui, cada lado possui uma borda de largura diferente */
+    border-style: solid ; /* estilos de borda diferentes para cima-baixo e esquerda-direita */
+    border-color: lightgray; /* uma cor de borda para cada lado */
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+.crud {
+   
+    margin: 0 auto;
+    width: 1000px;
+    text-align: center;
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+}
+
+/*form div + div {
+    margin-top: 1em;
+}*/
+
+.form-inline{
+margin: 10px;
+}
+
+form{
+font-family: helvetica,sans-serif;
+font-size: 17px;
+}
+
+
+
+.img_peq{
+
+    width: 130px;
+    height:184px;
+
+}
+.footer{
+background-color: #0404B4;
+color: white;
+text-align: center;
+border-top: 1px darkblue;
+height: 50px;
+margin: 0px 0px 0px;
+font-size: 20px;
+}
+
+.section1{
+    width: 100%;
+background-color: #3333FF;
+color: white;
+
+
+}
+
+
+h6{
+position: relative;
+top: 10px;
+}
+
+/*PAGINA HEADER.PHP*/
+div.busca input.busca{
+    width: 100%;
+}
+
+/*div.header header {
+    background-color: rgb(236, 170, 115);
+   }*/
+
+.logo {
+    align-self: center;
+}
+
+
+div.dpess input{
+    border-radius: 1em;
+    border: 1px solid gold;
+}
+
+
+input{
+    width: 300px;
+}
+
+.container{
+    font-size: 14px;
+    font-family: Arial;
+}
+
+div.cadastro{
+    font-size: 10px;
+    color: solid gray;
+}
+
+.botao {
+    width: 100px;
+    height: 40px;
+    margin: 15px;
+}
+
+div.login {
+    padding: 2em;
+}
+
+form.login {
+    /* Para ver as bordas do formulário */
+    padding: 2em;
+    border: 1px solid lightblue;
+    border-radius: 1em;
+    font-size: 20px;
+
+}
+
+form.cadastro {
+    /* Apenas para centralizar o form na página */
+    margin: 0 auto;
+    width: 1200px;
+    /* Para ver as bordas do formulário */
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 2em;
+}
+    
+section, div.panel-body, a{
+    padding: 5px 5px;
+} 
+  
+
+
+.nav > li > a{
+    padding: 5px 5px;
+}
+
+
+.nav-brand {
+    padding-top: 30px;
+}
+
+/*PAGINA CADASTRO.PHP*/
+
+ /*@media screen and (max-width: 767px) {
+        h2,h4{
+            font-size: 15px;
+        }
+
+        h3{
+            font-size: 13px;
+        }
+    }
+
+    select, input.cadastro-input{
+         width: 100%;
+         border-radius: 5px;
+         border: 1px solid lightgray;
+         padding: 10px;
+     }
+
+     h1,h2,h3{
+        color: rgba(51, 51, 51, 0.91);
+     }
+
+     .input-endereco{
+         width: 100%;
+         border-radius: 5px;
+         border: 1px solid lightgray;
+         padding: 10px;
+     }
+
+    .button-cadastro{
+        margin: 16px;
+        height: 50px;
+        width: 200px;
+        background: white;
+        border: 1px solid gold;
+        border-radius: 5px;
+    }
+
+    .button-cadastro:hover{
+        background: gold;
+    }
+    */
+
+
+    /*PAGINA CATEGORIA.PHP*/
+
+/*    @media screen and (max-width: 767px){
+        h4.text-lef{
+            font-size: 15px;
+        }
+
+
+        #5A2800;
+        #c15600;
+}*/

@@ -1,0 +1,21 @@
+﻿@charset utf-8;
+
+ ícone de contraste 
+i{
+font: serif;
+color: black;    
+}
+
+button {
+background-color: hsl(0,0%,100%);
+      box-shadow: 1px 2px 5px #000000;    
+}
+
+
+
+a[href="#top"]{ padding:10px;position:fixed;top: 90%;right:40px;display:none; font-size: 30px;background-color:red;}
+
+a[href="#top"]:hover{text-decoration:none;
+}
+
+

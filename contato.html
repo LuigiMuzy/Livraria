@@ -1,0 +1,137 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>  Quem Somos  </title>
+
+    <link href="http://www.tutorialspoint.com/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Custom CSS -->
+    <link href="contato.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+   <?php include 'nav.php' ;?>
+
+      <!-- Page Content -->
+      <div class="container">
+
+          <h1 class="thick-heading develop">
+          Desenvolvedores
+        </h1>
+  </div>
+        <!-- First Featurette -->
+        <div class="featurette" id="about">
+
+            <div class="container-fluid">
+                <div id="custom_carousel" class="carousel slide" data-ride="carousel" data-interval="2500">
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-md-3 borda"><img src="http://www.tutorialspoint.com/about/images/mohtashim.jpg" class="img-responsive borda" alt="Foto de Cleonice Lima na parte esquerda superior da página quem somos."></div>
+                                    <div class="col-md-9 borde">
+                                        <h2>Cleonice Lima</h2>
+                                        <p>Estudante de Tecnologia em Sistemas para Internet na Faculdade FATEC de São Roque</p>
+										<p>E-mail: cleosolima@gmail.com</p>
+										<p>Contato: +55(11)99999-9999</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-md-3 borda2"><img src="http://www.tutorialspoint.com/about/images/gopal_verma.jpg" class="img-responsive borda2" alt="Foto de João Teobaldo na parte central superior da página quem somos."></div>
+                                    <div class="col-md-9 borde2">
+                                        <h2>João Teobaldo</h2>
+                                        <p>Estudante de Tecnologia em Sistemas para Internet na Faculdade FATEC de São Roque</p>
+										<p>E-mail: teobaldojoao8@gmail.com</p>
+										<p>Contato: +55(11)99999-9999</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-md-3 borda3"><img src="imagem/Luigi.jpg" class="img-responsive borda3" alt="Foto de Luigi Fracalanza na parte direita superior da página quem somos."></div>
+                                    <div class="col-md-9 borde3">
+                                        <h2>Luigi Fracalanza</h2>
+                                        <p>Estudante de Tecnologia em Sistemas para Internet na Faculdade FATEC de São Roque</p>
+										<p>E-mail: luigifracalanza@gmail.com</p>
+										<p>Contato: +55(11)99999-9999</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- End Item -->
+                    </div>
+                    <!-- End Carousel Inner -->
+                    <div class="controls">
+                        <ul class="nav">
+                            <li data-target="#custom_carousel" data-slide-to="0" class="active">
+                                <a href="#"><img src="http://www.tutorialspoint.com/about/images/mohtashim.jpg" class="img-responsive" alt="Foto de Cleonice Lima na parte esquerda inferior da página quem somos."><small>Cleonice Lima</small></a>
+                            </li>
+                            <li data-target="#custom_carousel" data-slide-to="1">
+                                <a href="#"><img src="http://www.tutorialspoint.com/about/images/gopal_verma.jpg" class="img-responsive" alt="Foto de João Teobaldo na parte esquerda inferior da página quem somos."><small>João Teobaldo</small></a>
+                            </li>
+                            <li data-target="#custom_carousel" data-slide-to="2">
+                                <a href="#"><img src="imagem/luigi.jpg" style="width: 110px;height: 184px" class="img-responsive" alt="Foto de Luigi Fracalanza na parte esquerda inferior da página quem somos."><small>Luigi Fracalanza</small></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- jQuery -->
+        <script src="http://www.tutorialspoint.com/bootstrap/scripts/jquery.min.js">
+        </script>
+        <script>
+            $(document).ready(function (ev) {
+                $('#custom_carousel').on('slide.bs.carousel', function (evt) {
+                    $('#custom_carousel .controls li.active').removeClass('active');
+                    $('#custom_carousel .controls li:eq(' + $(evt.relatedTarget).index() + ')').addClass('active');
+                })
+            });
+        </script>
+        <!-- Bootstrap Core JavaScript -->
+        <script src="http://www.tutorialspoint.com/bootstrap/js/bootstrap.min.js">
+        </script>
+
+		<!-- jQuery -->
+    <script src="../../vendor/jquery/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../../vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
+
+    <!-- Theme JavaScript -->
+   <script type="text/javascript" src="contato.js"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	
+</body>
+
+</html>
